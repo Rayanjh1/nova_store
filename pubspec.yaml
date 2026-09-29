@@ -1,0 +1,36 @@
+name: nova_store
+description: "A modern responsive Flutter E-Commerce Application built with Bloc, GoRouter, GetIt, and ResponsiveFramework."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_bloc: ^8.1.6
+  bloc: ^8.1.4
+  equatable: ^2.0.5
+
+  # Routing
+  go_router: ^14.8.1
+
+  # Dependency Injection / Service Locator
+  get_it: ^8.0.3
+
+  # Responsive UI
+  responsive_framework: ^1.5.1
+
+  # Icons and Utilities
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
